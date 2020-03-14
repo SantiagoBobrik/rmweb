@@ -1,0 +1,93 @@
+<link rel="stylesheet" type="text/css" href="../css/plugins.css">
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+<link class="skin" rel="stylesheet" type="text/css" href="../css/skin/skin-1.css">
+<div class="container">
+	<!-- Portfolio Carousel with no margin -->
+	<div class="section-content box-sort-in m-b30 button-example">
+		<div class="portfolio-carousel-nogap owl-loaded owl-theme owl-carousel mfp-gallery gallery owl-btn-center-lr owl-btn-1">
+			<div class="item">
+				<div class="ow-portfolio">
+					<div class="ow-portfolio-img dlab-img-overlay1 dlab-img-effect zoom-slow"> <img src="../images/our-work/pic1.jpg" alt="">
+						<div class="overlay-bx">
+							<div class="overlay-icon"> <a href="../images/our-work/pic1.jpg"  class="mfp-link"> <i class="fa fa-search-plus icon-bx-xs"></i> </a> <a href="../images/our-work/pic1.jpg"  class="mfp-link"> <i class="fa fa-link icon-bx-xs"></i> </a> </div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<div class="ow-portfolio">
+					<div class="ow-portfolio-img dlab-img-overlay1 dlab-img-effect zoom-slow"> <img src="../images/our-work/pic2.jpg" alt="">
+						<div class="overlay-bx">
+							<div class="overlay-icon"> <a href="../images/our-work/pic2.jpg"  class="mfp-link"> <i class="fa fa-search-plus icon-bx-xs"></i> </a> <a href="../images/our-work/pic2.jpg"  class="mfp-link"> <i class="fa fa-link icon-bx-xs"></i> </a> </div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<div class="ow-portfolio">
+					<div class="ow-portfolio-img dlab-img-overlay1 dlab-img-effect zoom-slow"> <img src="../images/our-work/pic3.jpg" alt="">
+						<div class="overlay-bx">
+							<div class="overlay-icon"> <a href="../images/our-work/pic3.jpg"  class="mfp-link"> <i class="fa fa-search-plus icon-bx-xs"></i> </a> <a href="../images/our-work/pic3.jpg"  class="mfp-link"> <i class="fa fa-link icon-bx-xs"></i> </a> </div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<div class="ow-portfolio">
+					<div class="ow-portfolio-img dlab-img-overlay1 dlab-img-effect zoom-slow"> <img src="../images/our-work/pic4.jpg" alt="">
+						<div class="overlay-bx">
+							<div class="overlay-icon"> <a href="../images/our-work/pic4.jpg"  class="mfp-link"> <i class="fa fa-search-plus icon-bx-xs"></i> </a> <a href="../images/our-work/pic4.jpg"  class="mfp-link"> <i class="fa fa-link icon-bx-xs"></i> </a> </div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<div class="ow-portfolio">
+					<div class="ow-portfolio-img dlab-img-overlay1 dlab-img-effect zoom-slow"> <img src="../images/our-work/pic5.jpg" alt="">
+						<div class="overlay-bx">
+							<div class="overlay-icon"> <a href="../images/our-work/pic5.jpg"  class="mfp-link"> <i class="fa fa-search-plus icon-bx-xs"></i> </a> <a href="../images/our-work/pic5.jpg"  class="mfp-link"> <i class="fa fa-link icon-bx-xs"></i> </a> </div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<div class="ow-portfolio">
+					<div class="ow-portfolio-img dlab-img-overlay1 dlab-img-effect zoom-slow"> <img src="../images/our-work/pic6.jpg" alt="">
+						<div class="overlay-bx">
+							<div class="overlay-icon"> <a href="../images/our-work/pic6.jpg"  class="mfp-link"> <i class="fa fa-search-plus icon-bx-xs"></i> </a> <a href="../images/our-work/pic6.jpg"  class="mfp-link"> <i class="fa fa-link icon-bx-xs"></i> </a> </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="../js/jquery.min.js"></script><!-- JQUERY.MIN JS -->
+<script src="../plugins/bootstrap/js/popper.min.js"></script><!-- BOOTSTRAP.MIN JS -->
+<script src="../plugins/bootstrap/js/bootstrap.min.js"></script><!-- BOOTSTRAP.MIN JS -->
+<script src="../plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js"></script><!-- FORM JS -->
+<script src="../plugins/magnific-popup/magnific-popup.js"></script><!-- MAGNIFIC POPUP JS -->
+<script src="../plugins/owl-carousel/owl.carousel.js"></script><!-- OWL SLIDER -->
+<script src="../js/dz.carousel.js"></script><!-- SORTCODE FUCTIONS  -->
+
+<script>
+/* magnificPopup function */
+		jQuery('.mfp-gallery').magnificPopup({
+			delegate: '.mfp-link',
+			type: 'image',
+			tLoading: 'Loading image #%curr%...',
+			mainClass: 'mfp-img-mobile',
+			gallery: {
+				enabled: true,
+				navigateByImgClick: true,
+				preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+			},
+			image: {
+				tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+				titleSrc: function(item) {
+					return item.el.attr('title') + '<small></small>';
+				}
+			}
+		});
+		/* magnificPopup function end */
+</script>
