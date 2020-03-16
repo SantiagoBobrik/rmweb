@@ -48,7 +48,7 @@ function dz_rev_slider_1(){
 				onHoverStop:"off",
 				arrows: {
 					style:"uranus",
-					enable:true,
+					enable:false,
 					hide_onmobile:false,
 					hide_onleave:false,
 					tmp:'',

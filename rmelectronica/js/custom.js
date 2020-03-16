@@ -1,4 +1,10 @@
 // JavaScript Document
+
+
+
+
+
+
 function quick_search(){
 	'use strict';
 	/* Quik search in header on click function */
